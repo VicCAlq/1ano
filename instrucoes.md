@@ -42,18 +42,7 @@ Antes que se assustem com o exercício, cada uma das instruções abaixo é uma 
 
 2. (Foco em CSS) Posicionar o formulário à direita OU esquerda da lista de itens da biblioteca, e deixar a lista de itens da biblioteca orientada na vertical.
 
-3. (Foco em JavaScript) Modificar a função "carregarItens" para que a partir de um argumento extra na função ela exiba os itens na ordem recebida pelo servidor (do primeiro item para o último) OU em ordem invertida (do último para o primeiro). Para esta questão, o elemento HTML abaixo deve ser copiado e colado no HTML do projeto:
-
-```HTML
-<div 
-    style="display: flex; flex-direction: row; align-items: center;"
->
-    <label for="inverter">Inverter lista: </label>
-    <input type="checkbox" id="inverter" style="width: auto;"/>
-</div>
-```
-
-Para verificar o estado de "ativo" ou "inativo" do elemento acima, verifiquem no código JavaScript a propriedade "checked" deste input: `(document.getElementById("inverter").checked)`
+3. (Foco em JavaScript) Implementar uma função associada a um botão que, ao ser clicado, insere valores de exemplo nos campos de input do formulário.
 
 4. (Foco em HTML e CSS) Adicionar um rodapé na página contendo informações de que o projeto foi feito por você, e o texto do seu nome deve ser um link (uma tag "âncora", ou <a>) para o seu email.
 
